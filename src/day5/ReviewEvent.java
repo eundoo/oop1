@@ -1,6 +1,6 @@
 package day5;
 
-public class Event {
+public class ReviewEvent {
 
 	private String title;
 	private String description;
@@ -8,10 +8,10 @@ public class Event {
 	private String endDate;
 	private boolean isClosed;
 	
-	public Event() {}
-
-	public Event(String title, String description, String startDate, String endDate, boolean isClosed) {
-		super();
+	public ReviewEvent () {}
+	
+	public ReviewEvent(String title, String description, String startDate,
+			String endDate, boolean isClosed) {
 		this.title = title;
 		this.description = description;
 		this.startDate = startDate;
@@ -58,5 +58,5 @@ public class Event {
 	public void setClosed(boolean isClosed) {
 		this.isClosed = isClosed;
 	}
-	
+
 }

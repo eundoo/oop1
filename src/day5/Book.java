@@ -25,6 +25,35 @@ public class Book {
 		this.isSoldOut = isSoldOut;
 		this.discountRate = discountRate;
 	}
+	
+	public Book(int no, String title, String writer, String publisher, int price, boolean isSoldOut,
+			double discountRate, Event event, Gift gift) {
+		super();
+		this.no = no;
+		this.title = title;
+		this.writer = writer;
+		this.publisher = publisher;
+		this.price = price;
+		this.isSoldOut = isSoldOut;
+		this.discountRate = discountRate;
+		this.event = event;
+		this.gift = gift;
+	}
+	
+	public Book(int no, String title, String writer, String publisher, int price, boolean isSoldOut,
+			double discountRate, Event event) {
+		super();
+		this.no = no;
+		this.title = title;
+		this.writer = writer;
+		this.publisher = publisher;
+		this.price = price;
+		this.isSoldOut = isSoldOut;
+		this.discountRate = discountRate;
+		this.event = event;
+	}
+	
+
 	public int getNo() {
 		return no;
 	}

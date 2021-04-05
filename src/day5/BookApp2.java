@@ -10,8 +10,8 @@ public class BookApp2 {
 		
 		//Book객제와 Event객체, Book객체와 Gift객체 연결짓기
 		//book이 참조하는 Book 객체의 event 멤버변수에 event이 참조하는 Event객체의 주소값을 전달한다.
-		book1.setEvent(event2);
-		//book1dl 참조하는 Book객체의 gift 멤버변수에 gift1이 참조하는 Gift객체의 주소값을 전달한다.
+		book1.setEvent(event1);
+		//book1이 참조하는 Book객체의 gift 멤버변수에 gift1이 참조하는 Gift객체의 주소값을 전달한다.
 		book1.setGift(gift1);
 		
 		//book1이 참조하는 Book객체에 연결된 Event객체의 주소값 조회하기
